@@ -89,3 +89,62 @@ body {
     border-bottom: 0;
   }
 }
+
+/*Custom css
+
+ */
+
+.main-logo {
+  height: 70px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+.main-nav-custom {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.custom-header-main-page {
+  margin: 50px;
+  border: none;
+}
+
+.custom-nav-header-main-page {
+  border: none;
+  background: none;
+}
+
+.main-page-heading {
+  display: flex;
+}
+
+.h1-main-page {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+}
+
+.p-main-page {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-page-bitmoji {
+  margin-top: 10px;
+}
+
+.route-view {
+  margin: 50px 100px 50px 100px;
+}
+
+.headings-main-page {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.footer-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}

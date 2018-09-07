@@ -28,8 +28,8 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/movies', {
-        templateUrl: 'views/movies1.html',
+      .when('/about', {
+        templateUrl: 'views/about.html',
         controller: 'Movies1Ctrl',
       })
       .otherwise({
