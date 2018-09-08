@@ -3,6 +3,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var _ = require('lodash');
+const port = process.env.PORT || 9000;
 
 //Create Application
 var app = express();
@@ -41,4 +42,5 @@ mongoose.connection.once('open', function(){
 
     /*console.log('Listening on port 3000...');
     app.listen(3000);*/
+    app.listen(port);
 });
