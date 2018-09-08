@@ -26,7 +26,7 @@ app.use(function (req, res, next) {
 })*/
 
 //Connect to mongoDB
-mongoose.connect('mongodb://localhost/MEAN_App');
+mongoose.connect('mongodb://utkarshkasana:*Indian88@ds257838.mlab.com:57838/utkarshkasana1');
 mongoose.connection.once('open', function(){
 
     //Load the models.
