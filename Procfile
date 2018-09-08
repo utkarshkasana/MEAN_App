@@ -1,2 +1,2 @@
 worker: cd client && grunt serve
-web: node server/index.js && grunt dist
+web: node server/index.js
